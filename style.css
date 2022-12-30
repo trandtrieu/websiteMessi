@@ -11,11 +11,11 @@
 :root {
     --bg-color: #2a2a2a;
     --second-bg-color: #202020;
-    --text-color: rgb(52, 83, 199);
+    --text-color: #89C4E1;
     --second-color: #ccc;
-    --main-color: #bf2d19;
+    --main-color: #B33030;
     --big-font: 5rem;
-    --h2-font: 3rem;
+    --h2-font: 2.5rem;
     --p-font: 1.1rem
 }
 
@@ -60,7 +60,7 @@ span {
 
 .navlist a {
     color: var(--text-color);
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 600;
     margin: 0 25px;
     transition: all .45s ease;
@@ -104,30 +104,7 @@ section {
     justify-content: flex-start;
 }
 
-.slide {
-    margin-bottom: 20px;
 
-}
-
-.slide .one {
-    display: inline-block;
-    margin-right: 15px;
-    height: 32px;
-    padding: 0 15px;
-    line-height: 32px;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 5px;
-    background: var(--main-color);
-    color: var(--text-color);
-}
-
-.slide .two {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--second-color);
-}
 
 .home-text h1 {
     font-size: var(--big-font);
@@ -354,7 +331,7 @@ header.sticky {
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-    height: 300px;
+    height: 230px;
 }
 
 .row img {
