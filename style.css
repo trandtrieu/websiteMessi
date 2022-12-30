@@ -138,9 +138,9 @@ section {
 .btn {
     display: inline-block;
     padding: 12px 28px;
-    background: var(--main-color);
+    background: var(--text-color);
     border-radius: 10px;
-    color: var(--text-color);
+    color: var(--main-color);
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 600;
@@ -161,18 +161,19 @@ section {
     color: var(--main-color);
     margin-left: 35px;
 }
-.btn3{
-        display: inline-block;
-            padding: 12px 28px;
-            background: var(--main-color);
-            border-radius: 10px;
-            color: var(--text-color);
-            font-size: 1rem;
-            letter-spacing: 1px;
-            font-weight: 600;
-            transition: all .45s ease;
-            border: 1px solid transparent;
-            margin-top: 20px;
+
+.btn3 {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--text-color);
+    border-radius: 10px;
+    color: var(--main-color);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+    border: 1px solid transparent;
+    margin-top: 20px;
 }
 
 .btn2 span i {
@@ -315,9 +316,10 @@ header.sticky {
     cursor: pointer;
 }
 
-.portfolio{
+.portfolio {
     background: var(--second-bg-color);
 }
+
 .portfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
@@ -462,8 +464,8 @@ form textarea {
 .contact-form .submit {
     display: inline-block;
     font-size: 16px;
-    background: var(--main-color);
-    color: var(--text-color);
+    background: var(--text-color);
+    color: var(--main-color);
     width: 160px;
     transition: all .45s ease;
 }
@@ -473,26 +475,28 @@ form textarea {
     cursor: pointer;
 }
 
-.messi-video{
-        background-color: var(--second-bg-color);
-                    text-align: center;
+.messi-video {
+    background-color: var(--second-bg-color);
+    text-align: center;
 }
-.messi-video video{
+
+.messi-video video {
     width: 100%;
     height: 100%;
 
 }
 
-.messi-video h2{
+.messi-video h2 {
     text-align: center;
     margin-bottom: 40px;
     font-size: var(--h2-font);
     color: var(--main-color);
 }
 
-.messi-video span{
+.messi-video span {
     color: var(--text-color);
 }
+
 @media (max-width: 1480px) {
     header {
         padding: 12px 2.5%;
@@ -557,7 +561,7 @@ form textarea {
 
 @media (max-width: 840px) {
     #menu-icon {
-            display: block;
+        display: block;
     }
 
     .navlist {
@@ -584,11 +588,11 @@ form textarea {
         color: var(--main-color);
     }
 
-    .navlist a.active{
+    .navlist a.active {
         color: var(--text-color);
     }
 
-    .navlist.open{
-       top: 100%; 
+    .navlist.open {
+        top: 100%;
     }
 }
