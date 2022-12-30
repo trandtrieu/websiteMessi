@@ -159,7 +159,7 @@ section {
     font-size: 15px;
     font-weight: 600;
     color: var(--main-color);
-    margin-left: 35px;
+
 }
 
 .btn3 {
@@ -596,3 +596,4 @@ form textarea {
         top: 100%;
     }
 }
+
