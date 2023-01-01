@@ -75,9 +75,6 @@ span {
     color: var(--main-color);
 }
 
-.bx {
-    padding-top: 5px;
-}
 
 
 #menu-icon {
@@ -98,7 +95,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(img/123.jpg);
+    background-image: url(img/tr.png);
 
     background-size: cover;
     background-position: center;
@@ -123,13 +120,6 @@ section {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.1;
-}
-
-.home-text p {
-    color: var(--second-color);
-    font-size: var(--p-font);
-    line-height: 1.8;
-    margin-bottom: 40px;
 }
 
 .button {
@@ -162,7 +152,11 @@ section {
     font-size: 15px;
     font-weight: 600;
     color: var(--main-color);
+}
 
+.btn2:hover{
+    letter-spacing: 1px;
+    transition: all 0.45s ease;
 }
 
 .btn3 {
@@ -220,6 +214,7 @@ header.sticky {
 .about-text h2 {
     font-size: var(--h2-font);
     line-height: 1;
+    margin-bottom: 20px;
 }
 
 .about-text h4 {
@@ -275,6 +270,19 @@ header.sticky {
 
 .s-icons {
     text-align: center;
+}
+
+.boot{
+    height: 49px;
+    width: 49px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+}
+.s-icons img {
+    width: 100%;
+    height: 100%;
+
 }
 
 .s-icons i {
@@ -405,6 +413,10 @@ header.sticky {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
+
+}
+.contact-text{
+        vertical-align: top;
 }
 
 .contact-text h2 {
@@ -428,6 +440,12 @@ header.sticky {
     color: var(--second-color);
     font-size: 14px;
     transition: all .45s ease;
+}
+.list i {
+    color: var(--text-color);
+    padding-right: 20px;
+
+
 }
 
 .contact-icons {
@@ -501,6 +519,23 @@ form textarea {
     color: var(--text-color);
 }
 
+
+.top i {
+    padding: 10px;
+    color: var(--text-color);
+    border-radius: 8px;
+    background: var(--main-color);
+    font-size: 8px;
+
+}
+
+.list i {
+    color: var(--text-color);
+padding-right: 20px;
+
+
+}
+
 @media (max-width: 1480px) {
     header {
         padding: 12px 2.5%;
@@ -518,6 +553,11 @@ form textarea {
 
     .end {
         padding: 15px 3%;
+    }
+
+    .row {
+
+        height: 28 0px;
     }
 
 
@@ -670,4 +710,43 @@ form textarea {
     }
 
 
+}
+
+@media(max-width: 310px) {
+    .home-text h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--text-color);
+        list-style: 1.1;
+        margin: 0 0 8px;
+    }
+
+    .home-text h3 {
+        color: var(--text-color);
+        margin: 0 0 15px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .about-text h2 {
+        font-size: var(20px);
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+
+    .about-text h4 {
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--text-color);
+        line-height: 1.7;
+        margin: 15px 0 25px;
+    }
+
+    .about-text p {
+        color: var(--second-color);
+        font-size: var(--p-font);
+        line-height: 1.8;
+        margin-bottom: 3rem;
+    }
 }
