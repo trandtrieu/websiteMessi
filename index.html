@@ -2,246 +2,330 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
-    <title>Trieu</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" id="theme-link" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="icon" href="http://example.com/favicon.png" />
+
+  <title>Trieu</title>
 </head>
 
 <body>
-    <header>
-        <a href="#" class="logo">L<span>M</span>10</a>
+  <header>
+    <a href="#" class="logo" onclick="re()">L<span>M</span>10</a>
 
-        <ul class="navlist">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Records</a></li>
-            <li><a href="#messi-video">Video</a></li>
+    <ul class="navlist">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Records</a></li>
+      <li><a href="#messi-video">Video</a></li>
+      <li><a href="#portfolio">Achievements</a></li>
+      <li><a href="#teams">Teams</a></li>
+      <li><a href="#contact">Contact</a></li>
 
+    </ul>
 
-            <li><a href="#portfolio">Achievements</a></li>
-            <li><a href="#contact">Contact</a></li>
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
 
+  <section class="home" id="home">
+    <div class="home-text">
+      <h1>LEOMESSI</h1>
+      <h3>GOAT <span>OF FOOTBALL</span></h3>
+      <button class="learn-more">
+        <span class="circle" aria-hidden="true">
+          <span class="icon arrow"></span>
+        </span>
+        <span class="button-text">Learn More</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/t2.png" alt="" />
+    </div>
+
+    <div class="about-text">
+      <h2>About <span>him</span></h2>
+
+      <p>
+        Lionel Andrés Messi born 24 June 1987), also known as Leo Messi, is an
+        Argentine professional footballer who plays as a forward for Ligue 1
+        club Paris Saint-Germain and captains the Argentina national team.
+        Widely regarded as one of the greatest players of all time, Messi has
+        won a record seven Ballon d'Or awards
+      <p id="dots">...</p>
+      <p id="more"> a record six European
+        Golden Shoes, and in 2020 was named to the Ballon d'Or Dream Team. Until leaving the club in 2021,
+        he had spent his entire professional career with Barcelona, where he won a club-record 35 trophies, including
+        10 La Liga titles, seven Copa del Rey titles and four UEFA Champions Leagues. With his country, he won the
+        2021 Copa América and the 2022 FIFA World Cup. A prolific goalscorer and creative playmaker, Messi holds the
+        records for most goals in La Liga (474), most hat-tricks in La Liga (36) and the UEFA Champions League (8),
+        and most
+        assists in La Liga (192) and the Copa América (17). He has also the most international goals by a South
+        American male (98). Messi has scored over 790 senior career goals for club and country, and has the most goals
+        by a player for a single club (672).
+      </p>
+      </p>
+      <button onclick="myFunction()" class="btn" id="myBtn">Read more</button>
+    </div>
+  </section>
+
+  <section class="messi-video" id="messi-video">
+    <h2>Lionel Messi Career Highlights<span> Messi</span></h2>
+    <video controls>
+      <source src="video/FIFA ONLINE 4 2022-11-14 10-20-46.mp4" type="video/mp4" />
+      Your browser does not support HTML video.
+    </video>
+    <input class="btn3" type="button"
+      onclick="location.href='https://www.youtube.com/results?search_query=messi+highlight+';" value="More" />
+  </section>
+
+  <section class="services" id="services">
+    <div class="main-text">
+      <p></p>
+      <h2><span>Messi's</span> Record</h2>
+    </div>
+    <div class="services-content">
+      <div class="box">
+        <div class="s-icons">
+          <i class="bx bx-football"></i>
+          <h3>793 Goals</h3>
+          <p>iouwerhw weoiurhwehdsd skdfuhse9rywer dsfiusdhfsd f sdfhsdf</p>
+          <a href="https://messi.com/en/estadisticas-totales/" class="read" target="_blank">Read more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="s-icons">
+          <i class="bx bx-trophy"></i>
+          <h3>42 Titles</h3>
+          <p>iouwerhw weoiurhwehdsd skdfuhse9rywer dsfiusdhfsd f sdfhsdf</p>
+          <a href="https://messi.com/en/estadisticas-totales/" class="read" target="_blank">Read more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="s-icons">
+          <div class="boot"><img src="img/trq.png" alt="" /></div>
+
+          <h3>350 Assists</h3>
+          <p>iouwerhw weoiurhwehdsd skdfuhse9rywer dsfiusdhfsd f sdfhsdf</p>
+          <a href="https://messi.com/en/estadisticas-totales/" class="read" target="_blank">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="main-text">
+      <p>Big Achievements</p>
+      <h2><span>Super</span> Trophies</h2>
+    </div>
+
+    <div class="portfolio-content">
+      <div class="row">
+        <img src="img/maxresdefault.jpg" alt="" />
+        <div class="layer">
+          <h5>U20 Champion World Cup</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/ballon2009.jpg" alt="" />
+        <div class="layer">
+          <h5>Ballon d'Or 2009</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/107959494_original.jpg" alt="" />
+        <div class="layer">
+          <h5>Ballon d'Or 2010</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/0013729928e61075d6a101.gif" alt="" />
+        <div class="layer">
+          <h5>Ballon d'Or 2011</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/M B.jpg" alt="" />
+        <div class="layer">
+          <h5>Ballon d'Or 2012</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/hi-res-1ab6666ac1564770f29435b17e2f7c09_crop_north.jpg" alt="" />
+        <div class="layer">
+          <h5>Ballon d'Or 2015</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/skysports-lionel-messi_4854936.jpg" alt="" />
+        <div class="layer">
+          <h5>Ballon d'Or 2019</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/3263195-66781168-2560-1440.jpg" alt="" />
+        <div class="layer">
+          <h5>Ballon d'Or 2021</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/E5_2uOlWUAE5SuW-1625971301070.jpg" alt="" />
+        <div class="layer">
+          <h5>Copa America 2021</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/320171823_962693378027458_6736917076326960698_n.jpg" alt="" />
+        <div class="layer">
+          <h5>World Cup 2022</h5>
+          <p>check out 10 best memory in my life</p>
+          <a href=""><i class="bx bx-download"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="teams" id="teams">
+    <h2>Top 5 Attacking Trios That Lionel Messi Has Been Part</h2>
+    <div class="process-wrapper">
+      <div id="progress-bar-container">
+        <ul>
+          <li class="step step01 active">
+            <div class="step-inner">2006</div>
+          </li>
+          <li class="step step02">
+            <div class="step-inner">2009</div>
+          </li>
+          <li class="step step03">
+            <div class="step-inner">2010</div>
+          </li>
+          <li class="step step04">
+            <div class="step-inner">2015</div>
+          </li>
+          <li class="step step05">
+            <div class="step-inner">2023</div>
+          </li>
         </ul>
 
-        <div class="bx bx-menu" id="menu-icon"></div>
-
-
-    </header>
-
-
-    <section class="home" id="home">
-        <div class="home-text">
-
-
-            <h1>LEOMESSI</h1>
-            <h3>GOAT <span>OF FOOTBALL</span></h3>
-            <div class="button">
-
-                <a href="#" class="btn2"><span><i class='bx bx-play'></i></span></a>
-
-            </div>
+        <div id="line">
+          <div id="line-progress"></div>
         </div>
-    </section>
+      </div>
 
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/wc2022.jpg" alt="">
+      <div id="progress-content-section">
+        <div class="section-content discovery active">
+          <h2>Eto'o - Messi - Ronaldinho</h2>
+          <div class="section-content-img">
+            <img src="img/team2.jpg" alt="" />
+            <div class="layer">
+              <h5>World Cup 2022</h5>
+              <p>check out 10 best memory in my life</p>
+              <a href=""><i class="bx bx-download"></i></a>
+            </div>
+          </div>
         </div>
 
-        <div class="about-text">
-            <h2>About <span>him</span></h2>
-
-            <p>Lionel Andrés Messi born 24 June 1987),
-                also known as
-                Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris
-                Saint-Germain and
-                captains the Argentina national team. Widely regarded as one of the greatest players of all time, Messi
-                has won a record
-                seven Ballon d'Or awards,</p>
-            <a href="https://vi.wikipedia.org/wiki/Lionel_Messi" class="btn" target="_blank">More about</a>
-        </div>
-    </section>
-
-
-    <section class="messi-video" id="messi-video">
-        <h2>Lionel Messi Career Highlights<span> Messi</span></h2>
-        <video controls>
-            <source src="video/FIFA ONLINE 4 2022-11-14 10-20-46.mp4" type="video/mp4">
-            Your browser does not support HTML video.
-        </video>
-        <input class="btn3" type="button"
-            onclick="location.href='https://www.youtube.com/results?search_query=messi+highlight+';" value="More" />
-    </section>
-
-
-    <section class="services" id="services">
-        <div class="main-text">
-            <p> </p>
-            <h2><span>Messi's</span> Record</h2>
-        </div>
-        <div class="services-content">
-            <div class="box">
-                <div class="s-icons">
-                    <i class='bx bx-football'></i>
-                    <h3>793 Goals</h3>
-                    <p>iouwerhw weoiurhwehdsd skdfuhse9rywer dsfiusdhfsd f sdfhsdf</p>
-                    <a href="https://messi.com/en/estadisticas-totales/" class="read" target="_blank">Read more</a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="s-icons">
-                    <i class='bx bx-trophy'></i>
-                    <h3>42 Titles</h3>
-                    <p>iouwerhw weoiurhwehdsd skdfuhse9rywer dsfiusdhfsd f sdfhsdf</p>
-                    <a href="https://messi.com/en/estadisticas-totales/" class="read" target="_blank">Read more</a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="s-icons">
-                    <div class="boot"> <img src="img/trq.png" alt=""></div>
-
-                    <h3>350 Assists</h3>
-                    <p>iouwerhw weoiurhwehdsd skdfuhse9rywer dsfiusdhfsd f sdfhsdf</p>
-                    <a href="https://messi.com/en/estadisticas-totales/" class="read" target="_blank">Read more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="portfolio" id="portfolio">
-        <div class="main-text">
-            <p>Big Achievements</p>
-            <h2><span>Super</span> Trophies</h2>
+        <div class="section-content strategy">
+          <h2>Eto'o - Messi - Henry</h2>
+          <div class="section-content-img">
+            <img src="img/team2009.png" alt="" />
+          </div>
         </div>
 
-        <div class="portfolio-content">
-            <div class="row">
-                <img src="img/ballon2009.jpg" alt="">
-                <div class="layer">
-                    <h5>Ballon d'Or 2009</h5>
-                    <p>check out 10 best memory in my life</p>
-                    <a href=""><i class='bx bx-download'></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <img src="img/107959494_original.jpg" alt="">
-                <div class="layer">
-                    <h5>Ballon d'Or 2010</h5>
-                    <p>check out 10 best memory in my life</p>
-                    <a href=""><i class='bx bx-download'></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <img src="img/0013729928e61075d6a101.gif" alt="">
-                <div class="layer">
-                    <h5>Ballon d'Or 2011</h5>
-                    <p>check out 10 best memory in my life</p>
-                    <a href=""><i class='bx bx-download'></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <img src="img/M B.jpg" alt="">
-                <div class="layer">
-                    <h5>Ballon d'Or 2012</h5>
-                    <p>check out 10 best memory in my life</p>
-                    <a href=""><i class='bx bx-download'></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <img src="img/hi-res-1ab6666ac1564770f29435b17e2f7c09_crop_north.jpg" alt="">
-                <div class="layer">
-                    <h5>Ballon d'Or 2015</h5>
-                    <p>check out 10 best memory in my life</p>
-                    <a href=""><i class='bx bx-download'></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <img src="img/skysports-lionel-messi_4854936.jpg" alt="">
-                <div class="layer">
-                    <h5>Ballon d'Or 2019</h5>
-                    <p>check out 10 best memory in my life</p>
-                    <a href=""><i class='bx bx-download'></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <img src="img/3263195-66781168-2560-1440.jpg" alt="">
-                <div class="layer">
-                    <h5>Ballon d'Or 2021</h5>
-                    <p>check out 10 best memory in my life</p>
-                    <a href=""><i class='bx bx-download'></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <img src="img/E5_2uOlWUAE5SuW-1625971301070.jpg" alt="">
-                <div class="layer">
-                    <h5>Copa America 2021</h5>
-                    <p>check out 10 best memory in my life</p>
-                    <a href=""><i class='bx bx-download'></i></a>
-                </div>
-            </div>
-            <div class="row">
-                <img src="img/320171823_962693378027458_6736917076326960698_n.jpg" alt="">
-                <div class="layer">
-                    <h5>World Cup 2022</h5>
-                    <p>check out 10 best memory in my life</p>
-                    <a href=""><i class='bx bx-download'></i></a>
-                </div>
-            </div>
+        <div class="section-content creative">
+          <h2>Villa - Messi - Pedro</h2>
 
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="contact-text">
-            <h2>Contact <span>me!</span></h2>
-            <div class="list">
-                <li><a href="#"> <i class='bx bxs-phone'></i>0789458707</a></li>
-                <li><a href="#"> <i class='bx bxl-gmail'></i>trandtrieu@gmail.com</a></li>
-                <li><a href="#"> <i class='bx bx-current-location'></i>Quang Nam, Viet Nam</a></li>
-
-            </div>
-
-            <div class="contact-icons">
-                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#"><i class='bx bxl-tiktok'></i></a>
-                <a href="#"><i class='bx bxl-youtube'></i></a>
-            </div>
-
-
-        </div>
-        <div class="contact-form">
-            <form action="">
-                <input type="name" placeholder="Your name" required>
-                <input type="email" placeholder="Your email" required>
-                <input type="name" placeholder="Your phone number" required>
-                <textarea name="" id="" cols="35" rows="10" placeholder="How can I help you"></textarea>
-                <input type="submit" value="Send message" class="submit" required>
-            </form>
+          <div class="section-content-img">
+            <img src="img/team2010.jpg" alt="" />
+          </div>
         </div>
 
-        <div class="top">
-            <a href="#home"> <i class="bx bx-up-arrow-alt"></i> </a>
+        <div class="section-content production">
+          <h2>Suarez - Messi - Neymar</h2>
+          <div class="section-content-img">
+            <img src="img/msn.jpg" alt="" />
+          </div>
         </div>
 
-
-    </section>
-
-    <section class="messi-friends">
-        <div>
-
+        <div class="section-content analysis">
+          <h2>Neymar - Messi - Pedro</h2>
+          <div class="section-content-img">
+            <img src="img/messi-neymar-mbappe-3956.png" alt="" />
+          </div>
         </div>
-    </section>
-    <script type="text/javascript" src="mycode.js"></script>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>me!</span></h2>
+      <div class="list">
+        <li>
+          <a href="#"> <i class="bx bxs-phone"></i>0789458707</a>
+        </li>
+        <li>
+          <a href="#"> <i class="bx bxl-gmail"></i>trandtrieu@gmail.com</a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-current-location"></i>Quang Nam, Viet Nam</a>
+        </li>
+      </div>
+
+      <div class="contact-icons">
+        <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-tiktok"></i></a>
+        <a href="#"><i class="bx bxl-youtube"></i></a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form action="">
+        <input type="name" placeholder="Your name" required />
+        <input type="email" placeholder="Your email" required />
+        <input type="name" placeholder="Your phone number" required />
+        <textarea name="" id="" cols="35" rows="10" placeholder="How can I help you"></textarea>
+        <input type="submit" value="Send message" class="submit" required />
+      </form>
+    </div>
+
+    <div class="top">
+      <a href="#home"> <i class="bx bx-up-arrow-alt"></i> </a>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="mycode.js"></script>
 </body>
 
 </html>
